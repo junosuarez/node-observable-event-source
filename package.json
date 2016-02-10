@@ -1,0 +1,31 @@
+{
+  "name": "observable-event-source",
+  "author": "jden <jason@denizac.org>",
+  "version": "1.0.0",
+  "description": "RxJS Observable from server sent event stream",
+  "keywords": [
+    "eventsource",
+    "event-source",
+    "server sent events",
+    "sse",
+    "w3c"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "mochi"
+  },
+  "repository": "git@github.com:jden/observable-event-source.git",
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mochi": "^0.3.0",
+    "standard": "^6.0.0"
+  },
+  "dependencies": {
+    "byline": "^4.2.1",
+    "request": "^2.69.0",
+    "rx": "^4.0.7"
+  }
+}
