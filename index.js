@@ -1,6 +1,6 @@
 'use strict'
 const Observable = require('rx').Observable
-const request = require('request')
+const hyperquest = require('hyperquest')
 const LineStream = require('byline').LineStream
 
 function observableEventSource (obj) {
@@ -11,8 +11,7 @@ function observableEventSource (obj) {
   const observable = Observable.create((o) => {
     var parseState = {}
 
-    request({
-      url: url,
+    hyperquest(url, {
       headers: {
         Accept: 'text/eventsource'
       }

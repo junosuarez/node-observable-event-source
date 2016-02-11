@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "byline": "^4.2.1",
-    "request": "^2.69.0",
+    "hyperquest": "^1.2.0",
     "rx": "^4.0.7"
   }
 }
