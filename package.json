@@ -16,7 +16,7 @@
     "pretest": "npm run lint",
     "test": "mochi"
   },
-  "repository": "git@github.com:jden/observable-event-source.git",
+  "repository": "git@github.com:jden/node-observable-event-source.git",
   "license": "ISC",
   "readmeFilename": "README.md",
   "devDependencies": {
