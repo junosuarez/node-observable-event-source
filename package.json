@@ -1,7 +1,7 @@
 {
   "name": "observable-event-source",
   "author": "jden <jason@denizac.org>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RxJS Observable from server sent event stream",
   "keywords": [
     "eventsource",
